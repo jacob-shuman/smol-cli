@@ -1,6 +1,22 @@
 # smol-cli
 
+<!-- Badges -->
+
+[![license badge](https://img.shields.io/badge/license-mit-blue?style=for-the-badge&labelColor=blue)](https://github.com/GITHUB_USERNAME/smol-cli/blob/main/LICENSE)
+
 > A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg
+
+## Before using this template
+
+Replace the following templated variables globally:
+
+```
+YOUR_NAME (author's name)
+YOUR_EMAIL (author's email)
+GITHUB_USERNAME (github username)
+smol-cli (package name)
+smol--cli (package name)
+```
 
 ## Why?
 
@@ -33,17 +49,6 @@ npm i
 ### Compiling binaries
 
 [`pkg`](https://github.com/vercel/pkg) is used to create binaries for all major platforms. The `package` script will create binaries for windows, macos, and linux from the `./dist/out.cjs` bundle.
-
-## Replace template variables
-
-Before working on this template replace the following templated variables globally:
-
-```
-YOUR_NAME (author's name)
-YOUR_EMAIL (author's email)
-GITHUB_USERNAME (github username)
-smol-cli (package name)
-```
 
 ## Scripts
 
