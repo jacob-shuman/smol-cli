@@ -1,0 +1,31 @@
+{
+  "name": "smol-cli",
+  "description": "A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg",
+  "version": "0.0.0",
+  "type": "module",
+  "bin": "dist/out.cjs",
+  "scripts": {
+    "compile": "esbuild ./src/index.ts --bundle --minify --platform=node --target=node18 --outfile=dist/out.cjs",
+    "watch": "npm run compile -- --watch",
+    "package": "pkg dist/out.cjs --targets win,macos,linux --output dist/smol-cli"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.4",
+    "pkg": "^5.8.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "zx": "^7.2.3"
+  },
+  "author": "YOUR_NAME <YOUR_EMAIL>",
+  "license": "MIT",
+  "keywords": [
+    "smol",
+    "cli",
+    "zx",
+    "typescript",
+    "yargs",
+    "template",
+    "starter"
+  ]
+}
