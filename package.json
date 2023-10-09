@@ -20,6 +20,13 @@
     "zx": "^7.2.3"
   },
   "author": "YOUR_NAME <YOUR_EMAIL>",
+  "funding": "https://github.com/sponsors/GITHUB_USERNAME",
+  "homepage": "https://github.com/GITHUB_USERNAME/smol-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GITHUB_USERNAME/smol-cli.git"
+  },
+  "bugs": "https://github.com/GITHUB_USERNAME/smol-cli/issues",
   "license": "MIT",
   "keywords": [
     "smol",
