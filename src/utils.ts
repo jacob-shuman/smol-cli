@@ -10,12 +10,14 @@ export function showHelp(
     .map((p) => ` <${p}>`)
     .join("")}${
     options.length > 0
-      ? ` [options]\n\nOptions:${options.map(
-          (o) =>
-            `\n  ${o.short ? `-${o.short}` : ""}${
-              o?.short && o?.long ? ", " : ""
-            }${o.long ? `--${o.long}` : ""}\n\t${o.description}`
-        )}`
+      ? ` [options]\n\nOptions:${options
+          .map(
+            (o) =>
+              `\n  ${o.short ? `-${o.short}` : ""}${
+                o?.short && o?.long ? ", " : ""
+              }${o.long ? `--${o.long}` : ""}\n\t${o.description}`
+          )
+          .join("")}`
       : ""
   }`;
 }
