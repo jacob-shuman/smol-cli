@@ -3,7 +3,9 @@
   "description": "A typescript cli template powered by typescript, prettier, zx, esbuild, and pkg",
   "version": "0.0.0",
   "type": "module",
-  "bin": "dist/out.cjs",
+  "bin": {
+    "smol-cli": "dist/out.cjs"
+  },
   "scripts": {
     "compile": "esbuild ./src/index.ts --bundle --minify --platform=node --target=node18 --outfile=dist/out.cjs",
     "watch": "npm run compile -- --watch",
@@ -24,7 +26,9 @@
     "cli",
     "zx",
     "typescript",
-    "yargs",
+    "prettier",
+    "esbuild",
+    "pkg",
     "template",
     "starter"
   ]
