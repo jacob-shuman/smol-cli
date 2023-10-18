@@ -20,7 +20,7 @@ smol--cli (package name)
 
 ## Why?
 
-I needed a lightweight approach that had all the tools I preferred using that resulted in smol brinaries that worked across all major platforms.
+I needed a lightweight approach that had all the tools I preferred using that resulted in smol binaries that worked across all major platforms.
 
 - _Is this the best way to develop a CLI in javascript?_ **Doubtful.**
 - _Is it usable?_ **By my standards sure.**
